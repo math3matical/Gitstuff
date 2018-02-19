@@ -1,0 +1,16 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: service_retire_warn
+    inherits: 
+    description: 
+  fields:
+  - logical_event:
+      value: service_retire_warn
+  - rel5:
+      value: "/Service/Retirement/Email/service_retirement_emails"
+  - rel6:
+      value: "/System/event_handlers/event_enforce_policy"

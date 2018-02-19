@@ -1,0 +1,12 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: delete_inactive_vms_from_vmdb
+    inherits: 
+    description: 
+  fields:
+  - method:
+      value: delete_inactive_vms_from_vmdb

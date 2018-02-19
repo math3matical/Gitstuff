@@ -1,0 +1,93 @@
+---
+object_type: class
+version: 1.0
+object:
+  attributes:
+    description: 
+    display_name: 
+    name: Methods
+    type: 
+    inherits: 
+    visibility: 
+    owner: 
+  schema:
+  - field:
+      aetype: relationship
+      name: get_attributes
+      display_name: 
+      datatype: string
+      priority: 1
+      owner: 
+      default_value: "/Integration/RedHat/Ansible/default"
+      substitute: true
+      message: create
+      visibility: 
+      collect: ansible_server=ansible_server;ansible_username=ansible_username;ansible_password=ansible_password;vm_username=vm_username;vm_password=vm_password;playbook_directory=playbook_directory;inventory_directory=inventory_directory;var_directory=var_directory;bo_playbook_directory=bo_playbook_directory
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: playbook_name
+      display_name: 
+      datatype: string
+      priority: 2
+      owner: 
+      default_value: 
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: method
+      name: method
+      display_name: 
+      datatype: string
+      priority: 3
+      owner: 
+      default_value: run_playbook
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
+  - field:
+      aetype: attribute
+      name: bo_playbook_name
+      display_name: 
+      datatype: string
+      priority: 4
+      owner: 
+      default_value: bo_install.yml
+      substitute: true
+      message: create
+      visibility: 
+      collect: 
+      scope: 
+      description: 
+      condition: 
+      on_entry: 
+      on_exit: 
+      on_error: 
+      max_retries: 
+      max_time: 
